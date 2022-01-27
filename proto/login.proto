@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message LoginRequest {
+  int32 account = 1;  //登陆ID
+  int32 time = 2;  //时间戳
+}
+
+message LoginResponse {
+  bool result = 1;
+  string reason = 2;
+}

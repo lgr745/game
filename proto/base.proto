@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message C2SPack {
+  string file = 1;
+  string msg = 2;
+  bytes pack = 3;
+}
+
+message S2CPack {
+  string file = 1;
+  string msg = 2;
+  bytes pack = 3;
+}
