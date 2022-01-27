@@ -14,6 +14,10 @@ InteliJ IDEA 2019.3.1
 
 1.rebar3 new app game
 
+​	并且对rebar3/rebar.config加上{plugins, [rebar3_auto]}.
+
+​	用于后面载入第三方包或者插件使用
+
 2.使用IDEA 打开game项目
 
 ![image-20211113234751442](C:\Users\Lron\AppData\Roaming\Typora\typora-user-images\image-20211113234751442.png)
